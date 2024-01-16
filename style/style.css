@@ -153,10 +153,10 @@ ul li, a  {
 	letter-spacing: 0px;
 	text-align: left;
 	color: #95A1BB;
+	margin-bottom: 260px;
 }
 
-.hero-section-scroll {
-	margin-top: 261px;
+.hero-section-left a {
 	font-family: 'Rubik', sans-serif;
 	font-size: 12px;
 	font-weight: 500;
@@ -298,6 +298,7 @@ ul li, a  {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	transition: 0.5s;
+	cursor: pointer;
 }
 
 .call-to-action-btn:hover {
@@ -886,16 +887,28 @@ ul li, a  {
 .slider-strelka-span i {
 	font-size: 48px;
 	color: #95A1BB;
+	cursor: pointer;
+}
+
+.slider-bnts {
+	width: 80px;
+	margin-top: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 10px;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
 }
 
 .slider-btn {
-	margin-top: 200px;
-	display: inline-block;
 	width: 10px;
 	height: 10px;
+	border: none;
 	border-radius: 50%;
 	background-color: #E1E5EE;
 	transition: 0.2s;
+	cursor: pointer;
 }
 
 .slider-btn:hover {
@@ -936,6 +949,7 @@ ul li, a  {
 	width: 300px;
 	margin-top: 100px;
 	height: 395px;
+	position: relative;
 }
 
 .product-box img {
@@ -943,19 +957,31 @@ ul li, a  {
 	height: 300px;
 }
 
-.product-box-narx {
-	font-size: 12px;
-	font-weight: 500;
-	line-height: 20px;
-	letter-spacing: 2px;
-	text-align: right;
+.product-box-1:after {
+	content: "$89.90";
+	position: absolute;
+	top: 20px;	
+	right: 20px;
 	color: #6E38F7;
-	margin-top: -290px;
-	margin-right: 20px;
+}
+
+.product-box-2:after {
+	content: "$199.90";
+	position: absolute;
+	top: 20px;	
+	right: 20px;
+	color: #6E38F7;
+}
+
+.product-box-3:after {
+	content: "$129.90";
+	position: absolute;
+	top: 20px;	
+	right: 20px;
+	color: #6E38F7;
 }
 
 .product-box-title {
-	margin-top: 290px;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 22px;
