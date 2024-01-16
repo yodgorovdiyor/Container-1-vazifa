@@ -13,7 +13,7 @@ body {
 }
 
 .big-box {
-	width: 1400px;
+	max-width: 1400px;
 	height: 1700px;
 	margin-left: auto;
 	margin-right: auto;
@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-	width: 940px;
+	max-width: 940px;
 	margin-left: auto;
 	margin-right: auto;
 /*	background-color: gray;*/
@@ -312,7 +312,7 @@ ul li, a  {
 /* Testymonials Start */
 
 .big-box-1 {
-	width: 1400px;
+	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 500px;
@@ -445,7 +445,7 @@ ul li, a  {
 /* Testymonials End */
 
 .big-box-2 {
-	width: 1400px;
+	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 2400px;
@@ -837,7 +837,7 @@ ul li, a  {
 /* Slider Start */
 
 .big-box-3 {
-	width: 1400px;
+	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 700px;
@@ -1037,7 +1037,6 @@ ul li, a  {
 
 .team-img img {
 	width: 100%;
-
 }
 
 .team-list-1 {
@@ -1160,6 +1159,7 @@ ul li, a  {
 	color: #FFFFFF;
 	float: right;
 	transition: 0.3s;
+	cursor: pointer;
 }
 
 .forms-form input:nth-child(2):hover {
